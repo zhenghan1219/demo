@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: admin-server
+  server:
+  port: 8769
+
+
+  rabbitmq:
+    host: 47.97.118.242
+    port: 5672
+    username: guest
+    password: guest
+
+  data:
+    mongodb:
+      uri: mongodb://47.97.118.242:27017/admin
+
+
